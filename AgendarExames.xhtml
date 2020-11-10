@@ -59,6 +59,9 @@
 			<p:column headerText="Ações">
 			<p:commandButton icon="ui-icon-trash">
 			<p:confirm header="Comfirmação" message="Deseja Excluir a consulta ?" icon="ui-icon-alert"/>
+			<f:attribute name="consultaSelecionada" value="#{a}"/>
+			</p:commandButton>
+			<p:commandButton icon="ui-icon-pencil">
 			</p:commandButton>
 			</p:column>
 			
